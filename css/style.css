@@ -1,0 +1,221 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
+nav {
+  margin-top: 40px;
+  width: 420px;
+  background-color: #337592;
+}
+
+.restaurant-list {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #D9E6EC;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.location {
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 0.5px solid rgba(200,199,204,1);
+  overflow: hidden;
+  background-color: #D9E6EC;
+  padding-right: 5px;
+  margin-left: 20px;
+}
+
+.location:hover {border-bottom-color: rgba(200,199,204,0.5);}
+
+.newlocation {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  background-color: #D9E6EC;
+  padding-right: 5px;
+  margin-left: 20px;
+}
+
+.content {
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 65%;
+  line-height: 20px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.mins {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20%;
+  float: left;
+  color: #337592;
+}
+
+.arrow {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 10%;
+  float: left;
+  color: #337592;
+}
+
+
+.newarrow {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    float: right;
+    color: #337592;
+    padding-left: 20px;
+}
+
+.busnum {
+  float: left;
+  font-size: 16px;
+  width: 10%;
+  margin-right: 20px;
+}
+
+.busroute {
+  font-size: 16px;
+}
+
+.bustime {
+  font-size: 16px;
+  font-weight: bold;
+  color: #337592;
+  float: left;
+  margin-right: 10px;
+}
+
+.newbustime {
+  font-size: 16px;
+  font-weight: bold;
+  color: #337592;
+  float: left;
+  margin-right: 10px;
+}
+
+.image {
+  width: 19px;
+  height: 19px;
+  float: left;
+  margin-right: 1%;
+}
+
+
+.frequency {
+    margin-left: 27%;
+    font-size: 12px;
+}
+
+.arrow-left {
+  float:left;
+  padding-top: 10px;
+  padding-left: 2%;
+}
+
+.home {
+  font-size: 18px;
+  color: #D9E6EC;
+  float: left;
+  margin-left: 10px;
+
+}
+
+
+.mainheading {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: SF Pro Text;
+}
+
+.walking {
+  font-size: 14px;
+  background-color: darkslategray;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.walkingimage{
+  color: #FFFFFF;
+}
+
+.eastbound {
+    background-color: #FEC600;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.northbound {
+    background-color: #d2691e;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.southbound {
+    background-color: #6495ed;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.reroute {
+    background-color: #20b2aa;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.outofservice {
+    background-color: #ff4500;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 187px 10px 10px;
+    float: left;
+}
+
+.resumes {
+    background-color: #ff4500;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 35px 10px 10px;
+    float: left;
+}
