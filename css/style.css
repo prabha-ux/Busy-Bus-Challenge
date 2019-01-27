@@ -2,28 +2,41 @@
     box-sizing: border-box;
 }
 
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
 body {
   background-color: #FFFFFF;
-  font-family: sans-serif;
+  font-family: "SF Pro Text", system;
   font-size: 10px;
 }
 
 .container {
   margin: 0 auto;
-  width: 420px;
+  width: 376px;
+  height: 667px;
+  overflow: scroll;
 }
 
 nav {
-  margin-top: 40px;
-  width: 420px;
+  width: 100%;
   background-color: #337592;
 }
 
-.restaurant-list {
+
+.bus-list {
   margin: 0 auto;
   width: 100%;
   background-color: #D9E6EC;
   overflow: hidden;
+}
+
+
+.header {
+    padding: 10px;
 }
 
 h1 {
@@ -42,126 +55,72 @@ h3 {
   border-bottom: 0.5px solid rgba(200,199,204,1);
   overflow: hidden;
   background-color: #D9E6EC;
-  padding-right: 5px;
-  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .location:hover {border-bottom-color: rgba(200,199,204,0.5);}
 
-.newlocation {
-  margin: 0 auto;
-  width: 100%;
-  overflow: hidden;
-  background-color: #D9E6EC;
-  padding-right: 5px;
-  margin-left: 20px;
-}
 
-.content {
-  margin-top: 20px;
-  margin-left: 15px;
-  width: 65%;
+.busid {
+  width: 15%;
   line-height: 20px;
   float: left;
-  margin-bottom: 20px;
+}
+
+.busname {
+  width: 55%;
+  float: left;
+  line-height: 20px;
 }
 
 .mins {
-  margin-top: 20px;
-  margin-bottom: 20px;
   width: 20%;
   float: left;
-  color: #337592;
+  font-size: 16px;
+  color: #000000;
 }
 
 .arrow {
-  margin-top: 20px;
-  margin-bottom: 20px;
   width: 10%;
   float: left;
   color: #337592;
 }
 
-
-.newarrow {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 30%;
-    float: right;
-    color: #337592;
-    padding-left: 20px;
-}
-
 .busnum {
-  float: left;
   font-size: 16px;
-  width: 10%;
-  margin-right: 20px;
 }
 
 .busroute {
   font-size: 16px;
 }
 
-.bustime {
-  font-size: 16px;
-  font-weight: bold;
-  color: #337592;
-  float: left;
-  margin-right: 10px;
-}
-
-.newbustime {
-  font-size: 16px;
-  font-weight: bold;
-  color: #337592;
-  float: left;
-  margin-right: 10px;
-}
-
-.image {
-  width: 19px;
-  height: 19px;
-  float: left;
-  margin-right: 1%;
-}
-
-
 .frequency {
-    margin-left: 27%;
     font-size: 12px;
 }
 
 .arrow-left {
-  float:left;
-  padding-top: 10px;
-  padding-left: 2%;
+  float: left;
+  color: white;
+  width: 5%;
 }
 
 .home {
   font-size: 18px;
   color: #D9E6EC;
   float: left;
-  margin-left: 10px;
-
+  width: 25%;
 }
 
 
 .mainheading {
     font-size: 18px;
     color: #FFFFFF;
-    font-weight: 600;
-    text-align: center;
-    line-height: 30px;
-    padding-right: 80px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    font-family: SF Pro Text;
 }
 
 .walking {
   font-size: 14px;
-  background-color: darkslategray;
+  background-color: #337592;
   color: #FFFFFF;
   padding: 10px;
 }
@@ -204,11 +163,9 @@ h3 {
 
 .outofservice {
     background-color: #ff4500;
-    color: black;
     font-size: 16px;
     font-weight: 600;
-    padding: 10px 187px 10px 10px;
-    float: left;
+    padding: 10px;
 }
 
 .resumes {
