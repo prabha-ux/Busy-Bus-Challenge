@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 @font-face {
   font-family: system;
   font-style: normal;
@@ -39,16 +43,6 @@ nav {
     padding: 10px;
 }
 
-h1 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 14px;
-  font-weight: normal;
-}
-
 .location {
   margin: 0 auto;
   width: 100%;
@@ -66,12 +60,16 @@ h3 {
   width: 15%;
   line-height: 20px;
   float: left;
+  position: relative;
+  top: 4px;
 }
 
 .busname {
   width: 55%;
   float: left;
   line-height: 20px;
+  position: relative;
+  top:4px;
 }
 
 .mins {
@@ -79,12 +77,16 @@ h3 {
   float: left;
   font-size: 16px;
   color: #000000;
+  position: relative;
+  top:6px;
 }
 
 .arrow {
   width: 10%;
   float: left;
   color: #337592;
+  position: relative;
+  top: 6px;
 }
 
 .busnum {
