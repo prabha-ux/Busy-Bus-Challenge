@@ -122,7 +122,7 @@ nav {
 
 .walking {
   font-size: 14px;
-  background-color: #337592;
+  background-color: #0a445d;
   color: #FFFFFF;
   padding: 10px;
 }
@@ -132,49 +132,47 @@ nav {
 }
 
 .eastbound {
-    background-color: #FEC600;
-    color: black;
+    background-color: #337592;
+    border-bottom: 0.5px solid rgba(200,199,204,1);
+    color: white;
     font-size: 16px;
-    font-weight: 600;
     padding: 10px;
 }
 
 .northbound {
-    background-color: #d2691e;
-    color: black;
+    background-color: #337592;
+    border-bottom: 0.5px solid rgba(200,199,204,1);
+    color: white;
     font-size: 16px;
-    font-weight: 600;
     padding: 10px;
 }
 
 .southbound {
-    background-color: #6495ed;
-    color: black;
+    background-color: #337592;
+    border-bottom: 0.5px solid rgba(200,199,204,1);
+    color: white;
     font-size: 16px;
-    font-weight: 600;
     padding: 10px;
 }
 
 .reroute {
     background-color: #20b2aa;
-    color: black;
+    color: white;
     font-size: 16px;
-    font-weight: 600;
     padding: 10px;
 }
 
 .outofservice {
-    background-color: #ff4500;
+    background-color: #7f7a7a;
     font-size: 16px;
-    font-weight: 600;
     padding: 10px;
+    color: white;
 }
 
 .resumes {
     background-color: #ff4500;
     color: black;
     font-size: 16px;
-    font-weight: 600;
     padding: 10px 35px 10px 10px;
     float: left;
 }
